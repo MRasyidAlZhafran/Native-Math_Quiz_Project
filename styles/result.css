@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #fff0f0;
+  text-align: center;
+}
+
+.hasil {
+  border: 2px solid red;
+  background-color: #ffe5e5;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 600px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hasil h2 {
+  color: darkred;
+  margin-bottom: 15px;
+}
+
+.skor {
+  font-size: 2em;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hasil a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hasil a:hover {
+  background-color: darkred;
+}
+
+.btn-back {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: darkred;
+}

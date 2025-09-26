@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  padding: 30px;
+  background-color: #fff0f0;
+}
+
+.soal-review {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.benar {
+  background-color: #e0ffe0;
+  border-color: green;
+}
+
+.salah {
+  background-color: #ffe0e0;
+  border-color: red;
+}
+
+.btn-back {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: darkred;
+}
