@@ -14,7 +14,7 @@ $result = $koneksi->query("SELECT username, level, score, created_at FROM leader
 </head>
 
 <body>
-  <h2><i class="fas fa-trophy"></i> Leaderboard</h2>
+  <h2><i class="fas fa-trophy"></i> Top 10 Besar</h2>
   <table>
     <tr>
       <th>Username</th>
